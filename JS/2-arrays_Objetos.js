@@ -1,4 +1,5 @@
 
+
 console.log("\nContinuemos con objetos!\nUn objeto es una representacion de un objeto real mediante caracteristicas y acciones de forma resumida\n")
 
 let mascota = {
@@ -20,3 +21,13 @@ mascota.comer()
 console.log("Sasha es un perro muy peresoso por lo que gran parte del dia esta en plan ")
 mascota.dormir()
 
+
+let frutas = ["manzana", "banana", "pera"];
+console.log(frutas[1]);
+
+let persona = {
+  nombre: "Juan",
+  edad: 30,
+  trabajo: "Desarrollador",
+};
+console.log(persona.nombre);
