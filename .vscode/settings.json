@@ -1,27 +1,11 @@
 {
-	"cucumberautocomplete.strictGherkinCompletion": true,
-	"cucumberautocomplete.strictGherkinValidation": false,
-	"cucumberautocomplete.customParameters": [
-		{
-			"parameter": "{ab}",
-			"value": "(a|b)"
-		}
-	],
-	"cucumberautocomplete.skipDocStringsFormat": true,
-	"cucumberautocomplete.formatConfOverride": {
-		"But": "relative"
-	},
-	"cucumberautocomplete.onTypeFormat": true,
 	"editor.quickSuggestions": {
 		"comments": false,
 		"strings": true,
 		"other": true
 	},
-	"cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
-	"cucumberautocomplete.stepRegExSymbol": "'",
 	"window.zoomLevel": 1,
 	"workbench.colorTheme": "SynthWave '84",
-	"cSpell.language": "en,es",
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[html]": {
@@ -58,62 +42,15 @@
 	"editor.tabCompletion": "on",
 	"editor.lineHeight": 20,
 	"editor.cursorBlinking": "expand",
-	"cSpell.enableFiletypes": ["cucumber"],
 	"workbench.iconTheme": "material-icon-theme",
 	"material-icon-theme.folders.color": "#7cb342",
 	"material-icon-theme.files.associations": {
-		"*.tx.js": "Test-jsx",
+		"*.py": "Test-jsx",
 		"*.js": "Test-js",
-		"*.Page.json": "3d",
-		"*.Page.js": "3d",
-		"commands.js": "webpack",
+		"*.ts": "Test-ts",
 		"*.yml": "todo",
 		"*.json": "Cypress",
-		"scripts.js": "console",
-		".cypress-cucumber-preprocessorrc.json": "cucumber",
-		"cucumber-report.json": "cucumber",
 		"jsconfig.json": "Javascript-map",
 		"settings.json": "Vscode",
-		"launch.json": "http",
-		"package-lock.json": "npm",
-		"package.json": "npm"
-	},
-	"material-icon-theme.folders.associations": {
-		"api-testing": "api",
-		"db-testing": "database",
-		"ui-testing": "app",
-		"BDD Stories": "rules",
-		"feature-example": "rules",
-		"Step-Definitions": "test",
-		"suites": "test",
-		"cucumber-json": "Resolver",
-		"DOM": "class",
-		"POM": "context",
-		"Pages": "context",
-		"How-to": "content",
-		"US": "Storybook",
-		"test-plan": "meta",
-		"mochawesome-report": "log",
-		"smoke": "rules",
-		"sanity": "rules",
-		"regression": "rules",
-		"in-sprint": "rules",
-		"cucumber-test": "Resolver",
-		"fixtures": "container",
-		"support": "Helper",
-		"xhr-fetch": "batch",
-		"material-icons": "examples",
-		"workflows": "github"
-	},
-	"cypressHelper.menuItems": {
-		"OpenCypress": false,
-		"RunCypress": false,
-		"GenerateCustomCommandTypes": true,
-		"GoToCustomCommand": false,
-		"FindCustomCommandReferences": true,
-		"FindStepDefinitionReferences": true,
-		"SchemaGenerator": false,
-		"ParseHAR": false,
-		"mockAutocomplete": false
-	},
+	}
 }
