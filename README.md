@@ -1,16 +1,13 @@
 # 📚 ProgramacionQA 📚
 
-_Este proyecto es un e-commerce de una tienda de libros.Se desarrollo con React con un diseño de SPA._ 
+_El objetivo de este proyecto es poder darle una introduccion basica a los testers que ingresen a esta area para automatizar y necesiten minimos conocimientos de programacion de un lenguaje_ 
 
-_Tiene algunas de las funcionalidades basicas como:_
+_Listado de Lenguajes disponibles y proximos:_
 
-* Lista de productos con categorias
-* Datos de productos almacenados en firebase
-* Control de stock por firebase
-* Detalles de los productos
-* Agregar o eliminar producto del carrito
-* Calculo de total en Summary
-* Checkout con orden de compra almacenada en firebase
+* JavaScript
+* Python
+* Java
+* TypeScript
 
 ## Comenzando 🚀
 
