@@ -35,23 +35,27 @@ _Inicializar npm_
 npm init
 ```
 
-_npm install_
+_instala todas las dependencias_
 
 ```
-instala todas las dependencias
+npm install
 ```
-_Ejecutar proyecto_
+_Ejecutar un archivo desde root_
 
 ```
-npm start
+node ./Lenguaje/Archivo.js
 ```
-_Nota:este ultimo paso es el unico que debe ejecutarse para las siguientes ejecuciones del proyecto_
+_Ejecutar un archivo desde su carpeta_
+
+```
+node Archivo.js
+```
 
 ## Construido con 🛠️
 
 _Se utilizaron las siguientes recursos_
 
-* [Nombre](Link) - El framework web usado
+* [Nombre](Link) - .
 
 ## Autor ✒️
 
@@ -59,4 +63,4 @@ _Se utilizaron las siguientes recursos_
 
 ## Expresiones de Gratitud 🎁
 
-* A mi comunidad [Upex](https://github.com/upex-galaxy) que me ha inspirado a realizarlo y mi buen amigo [Elyer](https://github.com/saiotest) 
+* A mi comunidad [UPEX](https://github.com/upex-galaxy) que me ha inspirado a realizarlo y mi buen amigo [Elyer](https://github.com/saiotest) 
