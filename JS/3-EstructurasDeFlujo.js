@@ -1,4 +1,4 @@
-let edad = prompt("¿Cuál es tu edad?");
+let edad = 23
 if (edad >= 18) {
   console.log("Eres mayor de edad");
 } else {
@@ -13,9 +13,9 @@ if (edad >= 18) {
 // Programa: "Analizar edad para votar" -------------------------------
 edad <- 21
 if (edad >= 18) {
-    cat("Edad =", edad, "años: puede votar")
+  console.log("Edad =", edad, "años: puede votar")
 } else {
-    cat("Edad =", edad, "años: no puede votar")
+  console.log("Edad =", edad, "años: no puede votar")
 }
 
 var ahora = new Date();
@@ -52,7 +52,7 @@ switch (diaDeLaSemana) {
 //Ciclos, Bucles o Loops
 var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
 for(var i=0; i<7; i++) {
-  alert(dias[i]);
+  console.log(dias[i]);
 }
 var i = 5;
 

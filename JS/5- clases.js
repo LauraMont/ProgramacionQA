@@ -37,7 +37,7 @@ class Team {
 		console.log(`This is an static method`)
 	}
 
-	get sqad() {
+	get squad() {
 		return this.players.join(`,`)
 	}
 
